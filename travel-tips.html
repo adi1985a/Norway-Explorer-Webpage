@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Tips - Norway Explorer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/travel-tips.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Norway Explorer</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./index.html#destinations">Destinations</a></li>
+            <li><a href="./index.html#activities">Activities</a></li>
+            <li><a href="./culture.html">Culture</a></li>
+            <li><a href="./accommodation.html">Accommodation</a></li>
+            <li><a href="./travel-tips.html" class="active">Travel Tips</a></li>
+            <li><a href="./events.html">Events</a></li>
+            <li><a href="./gallery.html">Gallery</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <main class="travel-tips-page">
+        <section class="hero">
+            <div class="video-container">
+                <video autoplay muted loop id="hero-video">
+                    <source src="videos/travel-tips-hero.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="hero-content">
+                <h1>Travel Tips for Norway</h1>
+                <p>Essential information and practical advice for your Norwegian adventure</p>
+                <div class="hero-buttons">
+                    <a href="#weather-section" class="btn btn-primary">Check Weather</a>
+                    <a href="#cost-calculator-section" class="btn btn-secondary">Cost Calculator</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="weather-section" id="weather-section">
+            <div class="container">
+                <h2><i class="fas fa-cloud-sun"></i> Weather Information</h2>
+                <div class="weather-content">
+                    <div class="current-weather">
+                        <h3>Current Weather</h3>
+                        <div id="weather-widget">
+                            <!-- Weather widget will be loaded here -->
+                        </div>
+                    </div>
+                    <div class="seasonal-tips">
+                        <h3>Seasonal Weather Tips</h3>
+                        <div class="season-cards">
+                            <div class="season-card">
+                                <h4>Spring (March-May)</h4>
+                                <p>Temperature: 0°C to 15°C</p>
+                                <p>What to expect: Mild temperatures, occasional rain, blooming landscapes</p>
+                            </div>
+                            <div class="season-card">
+                                <h4>Summer (June-August)</h4>
+                                <p>Temperature: 12°C to 25°C</p>
+                                <p>What to expect: Midnight sun, warm days, ideal for outdoor activities</p>
+                            </div>
+                            <div class="season-card">
+                                <h4>Autumn (September-November)</h4>
+                                <p>Temperature: 5°C to 15°C</p>
+                                <p>What to expect: Beautiful fall colors, increasing rainfall</p>
+                            </div>
+                            <div class="season-card">
+                                <h4>Winter (December-February)</h4>
+                                <p>Temperature: -10°C to 5°C</p>
+                                <p>What to expect: Snow, northern lights, winter sports opportunities</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="visa-section">
+            <div class="container">
+                <h2><i class="fas fa-passport"></i> Visa Requirements</h2>
+                <div class="visa-content">
+                    <div class="visa-info">
+                        <h3>Do I Need a Visa?</h3>
+                        <p>Norway is part of the Schengen Area. Here's what you need to know:</p>
+                        <ul>
+                            <li>EU/EEA citizens: No visa required</li>
+                            <li>US citizens: No visa for stays up to 90 days</li>
+                            <li>Other nationalities: Check the <a href="https://www.udi.no/en/" target="_blank">Norwegian Directorate of Immigration</a></li>
+                        </ul>
+                    </div>
+                    <div class="required-documents">
+                        <h3>Required Documents</h3>
+                        <ul>
+                            <li>Valid passport (at least 6 months beyond stay)</li>
+                            <li>Travel insurance</li>
+                            <li>Return ticket</li>
+                            <li>Proof of accommodation</li>
+                            <li>Sufficient funds for your stay</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="safety-section">
+            <div class="container">
+                <h2><i class="fas fa-shield-alt"></i> Safety Information</h2>
+                <div class="safety-content">
+                    <div class="emergency-numbers">
+                        <h3>Emergency Numbers</h3>
+                        <ul>
+                            <li><strong>Police:</strong> 112</li>
+                            <li><strong>Ambulance:</strong> 113</li>
+                            <li><strong>Fire:</strong> 110</li>
+                            <li><strong>Search & Rescue:</strong> 120</li>
+                        </ul>
+                    </div>
+                    <div class="safety-tips">
+                        <h3>Safety Tips</h3>
+                        <ul>
+                            <li>Norway is generally very safe</li>
+                            <li>Take precautions in remote areas</li>
+                            <li>Check weather conditions before hiking</li>
+                            <li>Carry appropriate gear for outdoor activities</li>
+                            <li>Follow local guidelines and warnings</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="language-section">
+            <div class="container">
+                <h2><i class="fas fa-language"></i> Essential Norwegian Phrases</h2>
+                <div class="phrase-categories">
+                    <div class="phrase-category">
+                        <h3>Basic Greetings</h3>
+                        <div class="phrase-cards">
+                            <div class="phrase-card">
+                                <h4>Hello</h4>
+                                <p class="norwegian">Hei / Hallo</p>
+                                <p class="pronunciation">hay / ha-lo</p>
+                            </div>
+                            <div class="phrase-card">
+                                <h4>Good morning</h4>
+                                <p class="norwegian">God morgen</p>
+                                <p class="pronunciation">goo morn</p>
+                            </div>
+                            <div class="phrase-card">
+                                <h4>Good evening</h4>
+                                <p class="norwegian">God kveld</p>
+                                <p class="pronunciation">goo kvell</p>
+                            </div>
+                            <div class="phrase-card">
+                                <h4>Goodbye</h4>
+                                <p class="norwegian">Ha det bra</p>
+                                <p class="pronunciation">ha de bra</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="phrase-category">
+                        <h3>Polite Expressions</h3>
+                        <div class="phrase-cards">
+                            <div class="phrase-card">
+                                <h4>Please</h4>
+                                <p class="norwegian">Vær så snill</p>
+                                <p class="pronunciation">vær sho snil</p>
+                            </div>
+                            <div class="phrase-card">
+                                <h4>Thank you</h4>
+                                <p class="norwegian">Takk / Tusen takk</p>
+                                <p class="pronunciation">tak / too-sen tak</p>
+                            </div>
+                            <div class="phrase-card">
+                                <h4>You're welcome</h4>
+                                <p class="norwegian">Vær så god</p>
+                                <p class="pronunciation">vær sho goo</p>
+                            </div>
+                            <div class="phrase-card">
+                                <h4>Excuse me</h4>
+                                <p class="norwegian">Unnskyld</p>
+                                <p class="pronunciation">OOHN-sheel</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="phrase-category">
+                        <h3>Travel & Directions</h3>
+                        <div class="phrase-cards">
+                            <div class="phrase-card">
+                                <h4>Where is...?</h4>
+                                <p class="norwegian">Hvor er...?</p>
+                                <p class="pronunciation">vor air</p>
+                            </div>
+                            <div class="phrase-card">
+                                <h4>How much?</h4>
+                                <p class="norwegian">Hvor mye?</p>
+                                <p class="pronunciation">vor mee-eh</p>
+                            </div>
+                            <div class="phrase-card">
+                                <h4>Train station</h4>
+                                <p class="norwegian">Togstasjon</p>
+                                <p class="pronunciation">tog-sta-shoon</p>
+                            </div>
+                            <div class="phrase-card">
+                                <h4>Bus stop</h4>
+                                <p class="norwegian">Busstopp</p>
+                                <p class="pronunciation">bus-top</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="phrase-category">
+                        <h3>Emergency Phrases</h3>
+                        <div class="phrase-cards">
+                            <div class="phrase-card">
+                                <h4>Help!</h4>
+                                <p class="norwegian">Hjelp!</p>
+                                <p class="pronunciation">yelp</p>
+                            </div>
+                            <div class="phrase-card">
+                                <h4>I need a doctor</h4>
+                                <p class="norwegian">Jeg trenger en lege</p>
+                                <p class="pronunciation">yay treng-er en lay-eh</p>
+                            </div>
+                            <div class="phrase-card">
+                                <h4>Call an ambulance</h4>
+                                <p class="norwegian">Ring ambulanse</p>
+                                <p class="pronunciation">ring am-bu-lan-se</p>
+                            </div>
+                            <div class="phrase-card">
+                                <h4>Police</h4>
+                                <p class="norwegian">Politi</p>
+                                <p class="pronunciation">po-lee-tee</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="transport-section">
+            <div class="container">
+                <h2><i class="fas fa-train"></i> Transportation Guide</h2>
+                <div class="transport-content">
+                    <div class="transport-category">
+                        <h3>Public Transportation</h3>
+                        <div class="transport-cards">
+                            <div class="transport-card">
+                                <i class="fas fa-train"></i>
+                                <h4>Trains</h4>
+                                <ul>
+                                    <li>Operated by NSB (Norwegian State Railways)</li>
+                                    <li>Extensive network connecting major cities</li>
+                                    <li>Scenic routes available (Bergen & Flåm Railway)</li>
+                                    <li>Book tickets via vy.no</li>
+                                    <li>Minipris tickets for best deals</li>
+                                </ul>
+                            </div>
+                            <div class="transport-card">
+                                <i class="fas fa-bus"></i>
+                                <h4>Buses</h4>
+                                <ul>
+                                    <li>Extensive local & long-distance networks</li>
+                                    <li>NOR-WAY Bussekspress for intercity travel</li>
+                                    <li>Local apps for real-time schedules</li>
+                                    <li>City passes available in major cities</li>
+                                    <li>Night buses in larger cities</li>
+                                </ul>
+                            </div>
+                            <div class="transport-card">
+                                <i class="fas fa-subway"></i>
+                                <h4>Metro & Tram</h4>
+                                <ul>
+                                    <li>Available in Oslo and Bergen</li>
+                                    <li>Integrated with bus network</li>
+                                    <li>Single ticket system for all transport</li>
+                                    <li>Regular service throughout the day</li>
+                                    <li>Night service on weekends</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="transport-category">
+                        <h3>Air & Sea Travel</h3>
+                        <div class="transport-cards">
+                            <div class="transport-card">
+                                <i class="fas fa-plane"></i>
+                                <h4>Domestic Flights</h4>
+                                <ul>
+                                    <li>SAS and Norwegian main carriers</li>
+                                    <li>Widerøe for regional flights</li>
+                                    <li>Regular connections between cities</li>
+                                    <li>Airport express trains available</li>
+                                    <li>Book early for best prices</li>
+                                </ul>
+                            </div>
+                            <div class="transport-card">
+                                <i class="fas fa-ship"></i>
+                                <h4>Ferries & Boats</h4>
+                                <ul>
+                                    <li>Hurtigruten coastal service</li>
+                                    <li>Local ferries part of road network</li>
+                                    <li>Fjord sightseeing tours</li>
+                                    <li>Car ferries on major routes</li>
+                                    <li>Express boats between coastal cities</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="transport-category">
+                        <h3>Car Travel</h3>
+                        <div class="transport-cards">
+                            <div class="transport-card">
+                                <i class="fas fa-car"></i>
+                                <h4>Car Rental</h4>
+                                <ul>
+                                    <li>Major companies at airports</li>
+                                    <li>Electric cars widely available</li>
+                                    <li>Winter tires required (Oct-Apr)</li>
+                                    <li>Book in advance for better rates</li>
+                                    <li>International license accepted</li>
+                                </ul>
+                            </div>
+                            <div class="transport-card">
+                                <i class="fas fa-road"></i>
+                                <h4>Road Information</h4>
+                                <ul>
+                                    <li>Right-hand driving</li>
+                                    <li>Toll roads common</li>
+                                    <li>Speed limits strictly enforced</li>
+                                    <li>AutoPASS for toll payment</li>
+                                    <li>Check road conditions in winter</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="health-section">
+            <div class="container">
+                <h2><i class="fas fa-heart"></i> Health & Insurance</h2>
+                <div class="health-content">
+                    <div class="health-category">
+                        <h3>Healthcare System</h3>
+                        <div class="health-cards">
+                            <div class="health-card">
+                                <h4>Emergency Services</h4>
+                                <ul>
+                                    <li>Emergency number: 113</li>
+                                    <li>24/7 emergency rooms in major cities</li>
+                                    <li>English-speaking medical staff</li>
+                                    <li>Ambulance service widely available</li>
+                                    <li>Air ambulance for remote areas</li>
+                                </ul>
+                            </div>
+                            <div class="health-card">
+                                <h4>Medical Facilities</h4>
+                                <ul>
+                                    <li>High-quality healthcare system</li>
+                                    <li>Modern hospitals in all major cities</li>
+                                    <li>Walk-in clinics available</li>
+                                    <li>Pharmacies widely distributed</li>
+                                    <li>After-hours medical services</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="health-category">
+                        <h3>Insurance Requirements</h3>
+                        <div class="health-cards">
+                            <div class="health-card">
+                                <h4>Required Coverage</h4>
+                                <ul>
+                                    <li>Travel insurance mandatory</li>
+                                    <li>Medical evacuation coverage</li>
+                                    <li>Accident insurance</li>
+                                    <li>Liability coverage</li>
+                                    <li>Adventure sports coverage if applicable</li>
+                                </ul>
+                            </div>
+                            <div class="health-card">
+                                <h4>EU/EEA Citizens</h4>
+                                <ul>
+                                    <li>European Health Insurance Card valid</li>
+                                    <li>Additional travel insurance recommended</li>
+                                    <li>Check coverage before travel</li>
+                                    <li>Keep documentation accessible</li>
+                                    <li>Register card with local authorities</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="health-category">
+                        <h3>Health Tips</h3>
+                        <div class="health-cards">
+                            <div class="health-card">
+                                <h4>General Precautions</h4>
+                                <ul>
+                                    <li>Tap water is safe to drink</li>
+                                    <li>Food hygiene standards are high</li>
+                                    <li>UV protection needed in summer</li>
+                                    <li>Winter clothing essential</li>
+                                    <li>Motion sickness pills for fjord cruises</li>
+                                </ul>
+                            </div>
+                            <div class="health-card">
+                                <h4>Medications</h4>
+                                <ul>
+                                    <li>Bring prescription documentation</li>
+                                    <li>Pack essential medications</li>
+                                    <li>Check medication restrictions</li>
+                                    <li>Keep medications in original packaging</li>
+                                    <li>Know generic names of medicines</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="packing-section">
+            <div class="container">
+                <h2><i class="fas fa-suitcase"></i> Packing Guide</h2>
+                <div class="packing-content">
+                    <div class="season-packing">
+                        <h3>Seasonal Packing Lists</h3>
+                        <div class="accordion">
+                            <div class="accordion-item">
+                                <button class="accordion-header">Summer Packing List (June-August)</button>
+                                <div class="accordion-content">
+                                    <div class="packing-category">
+                                        <h4>Clothing</h4>
+                                        <ul>
+                                            <li>Light waterproof jacket</li>
+                                            <li>Fleece or warm sweater</li>
+                                            <li>Long and short sleeve t-shirts</li>
+                                            <li>Long pants and shorts</li>
+                                            <li>Comfortable walking shoes</li>
+                                            <li>Hiking boots (if planning hikes)</li>
+                                            <li>Swimming suit</li>
+                                            <li>Light scarf or shawl</li>
+                                            <li>Socks and underwear</li>
+                                            <li>Light gloves (for mountain areas)</li>
+                                        </ul>
+                                    </div>
+                                    <div class="packing-category">
+                                        <h4>Accessories</h4>
+                                        <ul>
+                                            <li>Sunglasses</li>
+                                            <li>Sun hat or cap</li>
+                                            <li>Daypack for excursions</li>
+                                            <li>Water bottle</li>
+                                            <li>Camera</li>
+                                            <li>Power bank</li>
+                                        </ul>
+                                    </div>
+                                    <div class="packing-category">
+                                        <h4>Toiletries</h4>
+                                        <ul>
+                                            <li>Sunscreen (SPF 30+)</li>
+                                            <li>Insect repellent</li>
+                                            <li>Basic first-aid kit</li>
+                                            <li>Personal care items</li>
+                                            <li>Medications</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <button class="accordion-header">Winter Packing List (December-February)</button>
+                                <div class="accordion-content">
+                                    <div class="packing-category">
+                                        <h4>Clothing</h4>
+                                        <ul>
+                                            <li>Warm, waterproof winter coat</li>
+                                            <li>Thermal base layers</li>
+                                            <li>Wool sweaters</li>
+                                            <li>Insulated, waterproof pants</li>
+                                            <li>Warm winter boots</li>
+                                            <li>Wool socks</li>
+                                            <li>Warm hat/beanie</li>
+                                            <li>Scarf or neck gaiter</li>
+                                            <li>Insulated gloves</li>
+                                            <li>Hand and foot warmers</li>
+                                        </ul>
+                                    </div>
+                                    <div class="packing-category">
+                                        <h4>Accessories</h4>
+                                        <ul>
+                                            <li>Sunglasses (snow glare)</li>
+                                            <li>Lip balm with SPF</li>
+                                            <li>Thermos</li>
+                                            <li>Camera</li>
+                                            <li>Power bank</li>
+                                            <li>Ice grips for boots</li>
+                                        </ul>
+                                    </div>
+                                    <div class="packing-category">
+                                        <h4>Special Items</h4>
+                                        <ul>
+                                            <li>Northern lights camera settings guide</li>
+                                            <li>Ski gear (if planning to ski)</li>
+                                            <li>Moisturizer for dry air</li>
+                                            <li>Thermos for hot drinks</li>
+                                            <li>Emergency kit for car travel</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <button class="accordion-header">Spring/Autumn Packing List (Mar-May/Sep-Nov)</button>
+                                <div class="accordion-content">
+                                    <div class="packing-category">
+                                        <h4>Clothing</h4>
+                                        <ul>
+                                            <li>Waterproof jacket and pants</li>
+                                            <li>Warm sweaters</li>
+                                            <li>Long sleeve shirts</li>
+                                            <li>Light and warm layers</li>
+                                            <li>Comfortable walking shoes</li>
+                                            <li>Waterproof boots</li>
+                                            <li>Light gloves</li>
+                                            <li>Light hat or beanie</li>
+                                            <li>Scarf</li>
+                                            <li>Warm socks</li>
+                                        </ul>
+                                    </div>
+                                    <div class="packing-category">
+                                        <h4>Accessories</h4>
+                                        <ul>
+                                            <li>Umbrella</li>
+                                            <li>Daypack</li>
+                                            <li>Water bottle</li>
+                                            <li>Camera</li>
+                                            <li>Power bank</li>
+                                            <li>Travel adapter</li>
+                                        </ul>
+                                    </div>
+                                    <div class="packing-category">
+                                        <h4>Miscellaneous</h4>
+                                        <ul>
+                                            <li>Light first-aid kit</li>
+                                            <li>Rain cover for backpack</li>
+                                            <li>Portable charger</li>
+                                            <li>Maps and guides</li>
+                                            <li>Weather app on phone</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cost-calculator-section" id="cost-calculator-section">
+            <div class="container">
+                <h2><i class="fas fa-calculator"></i> Travel Cost Calculator</h2>
+                <div class="calculator-container">
+                    <div class="calculator-form">
+                        <div class="form-group">
+                            <label for="days">Number of Days:</label>
+                            <input type="number" id="days" min="1" value="1">
+                        </div>
+                        <div class="form-group">
+                            <label for="accommodation-type">Accommodation Type:</label>
+                            <select id="accommodation-type">
+                                <option value="budget">Budget Hostel</option>
+                                <option value="mid">Mid-range Hotel</option>
+                                <option value="luxury">Luxury Hotel</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="travel-style">Travel Style:</label>
+                            <select id="travel-style">
+                                <option value="budget">Budget</option>
+                                <option value="moderate">Moderate</option>
+                                <option value="luxury">Luxury</option>
+                            </select>
+                        </div>
+                        <button id="calculate-btn">Calculate</button>
+                    </div>
+                    <div class="calculator-result">
+                        <h3>Estimated Cost</h3>
+                        <p id="total-cost">Select options above to calculate</p>
+                        <div class="cost-breakdown">
+                            <p>Accommodation: <span id="accommodation-cost">-</span></p>
+                            <p>Food & Drinks: <span id="food-cost">-</span></p>
+                            <p>Activities: <span id="activities-cost">-</span></p>
+                            <p>Transportation: <span id="transport-cost">-</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Norway Explorer</h3>
+                <p>Your guide to experiencing the best of Norway</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#destinations">Destinations</a></li>
+                    <li><a href="index.html#activities">Activities</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Norway Explorer. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/travel-tips.js"></script>
+</body>
+</html>

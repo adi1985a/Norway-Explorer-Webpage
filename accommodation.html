@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accommodation in Norway - Norway Explorer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/accommodation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Norway Explorer</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./index.html#destinations">Destinations</a></li>
+                <li><a href="./index.html#activities">Activities</a></li>
+                <li><a href="./culture.html">Culture</a></li>
+                <li><a href="./accommodation.html" class="active">Accommodation</a></li>
+                <li><a href="./travel-tips.html">Travel Tips</a></li>
+                <li><a href="./events.html">Events</a></li>
+                <li><a href="./gallery.html">Gallery</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="video-container">
+                <video autoplay muted loop id="hero-video">
+                    <source src="videos/accommodation-hero.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="hero-content">
+                <h1>Where to Stay in Norway</h1>
+                <p>From cozy cabins to luxury hotels - find your perfect accommodation</p>
+                <div class="hero-buttons">
+                    <a href="#accommodation-types" class="btn btn-primary">Explore Options</a>
+                    <a href="#special-offers" class="btn btn-secondary">Special Offers</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="accommodation-types" class="section">
+            <h2>Types of Accommodation</h2>
+            <div class="accommodation-grid">
+                <div class="accommodation-card">
+                    <img src="images/hotel1.jpg" alt="Luxury Hotel">
+                    <div class="card-content">
+                        <h3>Luxury Hotels</h3>
+                        <p>Experience world-class comfort and service in Norway's finest hotels.</p>
+                        <div class="card-features">
+                            <div class="feature">
+                                <i class="fas fa-wifi"></i>
+                                <span>Free WiFi</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-utensils"></i>
+                                <span>Restaurant</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-spa"></i>
+                                <span>Spa Access</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accommodation-card">
+                    <img src="images/cabin1.jpg" alt="Cozy Cabin">
+                    <div class="card-content">
+                        <h3>Mountain Cabins</h3>
+                        <p>Authentic Norwegian cabins surrounded by stunning natural beauty.</p>
+                        <div class="card-features">
+                            <div class="feature">
+                                <i class="fas fa-fire"></i>
+                                <span>Fireplace</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-mountain"></i>
+                                <span>View</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-hiking"></i>
+                                <span>Trails</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accommodation-card">
+                    <img src="images/apartment1.jpg" alt="Modern Apartment">
+                    <div class="card-content">
+                        <h3>City Apartments</h3>
+                        <p>Modern, fully equipped apartments in prime urban locations.</p>
+                        <div class="card-features">
+                            <div class="feature">
+                                <i class="fas fa-kitchen-set"></i>
+                                <span>Kitchen</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-tv"></i>
+                                <span>Smart TV</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-washer"></i>
+                                <span>Laundry</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accommodation-card">
+                    <img src="images/camping1.jpg" alt="Camping Site">
+                    <div class="card-content">
+                        <h3>Camping Sites</h3>
+                        <p>Connect with nature in well-equipped camping grounds.</p>
+                        <div class="card-features">
+                            <div class="feature">
+                                <i class="fas fa-faucet"></i>
+                                <span>Facilities</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-campground"></i>
+                                <span>Tent Area</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-plug"></i>
+                                <span>Power</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="featured" class="section">
+            <h2>Featured Properties</h2>
+            <div class="destinations-grid">
+                <div class="destination-card">
+                    <div class="destination-image">
+                        <img src="images/Grand Hotel Oslo.jpg" alt="Grand Hotel Oslo">
+                        <div class="destination-overlay">
+                            <a href="#" class="btn-explore">View Details</a>
+                        </div>
+                    </div>
+                    <div class="destination-content">
+                        <div class="destination-tag">Luxury Hotel</div>
+                        <h3>Grand Hotel Oslo</h3>
+                        <p>5-star luxury hotel in the heart of Oslo with spa and fine dining</p>
+                        <div class="destination-info">
+                            <span><i class="fas fa-star"></i> 4.8/5</span>
+                            <span><i class="fas fa-money-bill-wave"></i> From 2500 NOK</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="destination-card">
+                    <div class="destination-image">
+                        <img src="images/Fjord View Cabin.jpg" alt="Fjord View Cabin">
+                        <div class="destination-overlay">
+                            <a href="#" class="btn-explore">View Details</a>
+                        </div>
+                    </div>
+                    <div class="destination-content">
+                        <div class="destination-tag">Cabin</div>
+                        <h3>Fjord View Cabin</h3>
+                        <p>Traditional cabin with panoramic views of Geirangerfjord</p>
+                        <div class="destination-info">
+                            <span><i class="fas fa-star"></i> 4.9/5</span>
+                            <span><i class="fas fa-money-bill-wave"></i> From 1200 NOK</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="destination-card">
+                    <div class="destination-image">
+                        <img src="images/Grand Hotel Oslo1.jpg" alt="Historic Bryggen Hotel">
+                        <div class="destination-overlay">
+                            <a href="#" class="btn-explore">View Details</a>
+                        </div>
+                    </div>
+                    <div class="destination-content">
+                        <div class="destination-tag">Hotel</div>
+                        <h3>Historic Bryggen Hotel</h3>
+                        <p>Historic hotel in the heart of Bergen with restaurant and bar</p>
+                        <div class="destination-info">
+                            <span><i class="fas fa-star"></i> 4.5/5</span>
+                            <span><i class="fas fa-money-bill-wave"></i> From 2200 NOK</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="destination-card">
+                    <div class="destination-image">
+                        <img src="images/Aurora View Lodge.jpg" alt="Aurora View Lodge">
+                        <div class="destination-overlay">
+                            <a href="#" class="btn-explore">View Details</a>
+                        </div>
+                    </div>
+                    <div class="destination-content">
+                        <div class="destination-tag">Lodge</div>
+                        <h3>Aurora View Lodge</h3>
+                        <p>Cozy lodge with Northern Lights views and lounge area</p>
+                        <div class="destination-info">
+                            <span><i class="fas fa-star"></i> 4.9/5</span>
+                            <span><i class="fas fa-money-bill-wave"></i> From 2800 NOK</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="special-offers" class="section">
+            <h2>Special Offers</h2>
+            <div class="activities-grid">
+                <div class="activity-card">
+                    <div class="activity-image">
+                        <img src="images/Winter Package.jpg" alt="Winter Package">
+                    </div>
+                    <div class="activity-content">
+                        <h3>Winter Adventure Package</h3>
+                        <p>3 nights in a mountain cabin with Northern Lights viewing and winter activities</p>
+                        <ul class="activity-features">
+                            <li><i class="fas fa-snowflake"></i> Winter Season</li>
+                            <li><i class="fas fa-tag"></i> 20% Off</li>
+                            <li><i class="fas fa-calendar"></i> Nov-Mar</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="activity-image">
+                        <img src="images/Summer Deal.jpg" alt="Summer Fjord Package">
+                    </div>
+                    <div class="activity-content">
+                        <h3>Summer Fjord Escape</h3>
+                        <p>5 nights in a fjord-view cabin with hiking and kayaking activities included</p>
+                        <ul class="activity-features">
+                            <li><i class="fas fa-sun"></i> Summer Season</li>
+                            <li><i class="fas fa-tag"></i> 15% Off</li>
+                            <li><i class="fas fa-calendar"></i> Jun-Aug</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="activity-image">
+                        <img src="images/oslo1.jpg" alt="City Break Package">
+                    </div>
+                    <div class="activity-content">
+                        <h3>City Break Package</h3>
+                        <p>4 nights in luxury Oslo hotel with city tours and museum passes</p>
+                        <ul class="activity-features">
+                            <li><i class="fas fa-city"></i> Year-round</li>
+                            <li><i class="fas fa-tag"></i> 25% Off</li>
+                            <li><i class="fas fa-calendar"></i> Any Time</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="activity-image">
+                        <img src="images/tourist-rests-before-beautiful-view-mountain-lake-somewhere-norway_8353-1148.jpg" alt="Camping Adventure">
+                    </div>
+                    <div class="activity-content">
+                        <h3>Camping Adventure</h3>
+                        <p>7 nights camping experience with equipment rental and guided tours</p>
+                        <ul class="activity-features">
+                            <li><i class="fas fa-campground"></i> Spring/Summer</li>
+                            <li><i class="fas fa-tag"></i> 30% Off</li>
+                            <li><i class="fas fa-calendar"></i> May-Sep</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="map-section" class="section">
+            <h2>Find Accommodation on Map</h2>
+            <div class="static-map-container">
+                <img src="images/map.jpg" alt="Norway Accommodation Map" class="static-map">
+                <div class="map-overlay">
+                    <div class="map-legend">
+                        <h3>Popular Regions</h3>
+                        <ul>
+                            <li><i class="fas fa-hotel"></i> Major Cities</li>
+                            <li><i class="fas fa-mountain"></i> Fjord Region</li>
+                            <li><i class="fas fa-snowflake"></i> Northern Lights</li>
+                            <li><i class="fas fa-tree"></i> National Parks</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="reviews" class="section">
+            <h2>Guest Reviews</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="icons/iconfinder-4-avatar-2754580_120522.ico" alt="Sarah" class="user-avatar">
+                        <div class="testimonial-info">
+                            <h3>Sarah Thompson</h3>
+                            <div class="location-date">
+                                <span><i class="fas fa-map-marker-alt"></i> Geirangerfjord</span>
+                                <span><i class="fas fa-calendar"></i> December 2023</span>
+                            </div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"Amazing experience! The fjord view cabin was absolutely stunning. The booking process was smooth, and the amenities were exactly as described. Waking up to the breathtaking views every morning was unforgettable. Will definitely come back!"</p>
+                    <div class="testimonial-stay">
+                        <span class="stay-type"><i class="fas fa-home"></i> Fjord View Cabin</span>
+                        <span class="stay-duration"><i class="fas fa-clock"></i> 5 nights</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="icons/iconfinder-3-avatar-2754579_120516.ico" alt="Michael" class="user-avatar">
+                        <div class="testimonial-info">
+                            <h3>Michael Chen</h3>
+                            <div class="location-date">
+                                <span><i class="fas fa-map-marker-alt"></i> Oslo</span>
+                                <span><i class="fas fa-calendar"></i> January 2024</span>
+                            </div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"Perfect location in Oslo! The hotel staff was incredibly helpful, and the views of the city were breathtaking. The search system made it easy to find exactly what I was looking for. The breakfast buffet was outstanding with local Norwegian specialties."</p>
+                    <div class="testimonial-stay">
+                        <span class="stay-type"><i class="fas fa-hotel"></i> Grand Hotel Oslo</span>
+                        <span class="stay-duration"><i class="fas fa-clock"></i> 3 nights</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="icons/iconfinder-4-avatar-2754580_120522.ico" alt="Emma" class="user-avatar">
+                        <div class="testimonial-info">
+                            <h3>Emma Anderson</h3>
+                            <div class="location-date">
+                                <span><i class="fas fa-map-marker-alt"></i> Bergen</span>
+                                <span><i class="fas fa-calendar"></i> November 2023</span>
+                            </div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"The camping experience was fantastic! The facilities were clean and modern, and the location was perfect for exploring the surrounding hiking trails. The staff provided great tips for local attractions and even helped us set up our tent."</p>
+                    <div class="testimonial-stay">
+                        <span class="stay-type"><i class="fas fa-campground"></i> Bergen Camping</span>
+                        <span class="stay-duration"><i class="fas fa-clock"></i> 4 nights</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="icons/iconfinder-3-avatar-2754579_120516.ico" alt="David" class="user-avatar">
+                        <div class="testimonial-info">
+                            <h3>David Wilson</h3>
+                            <div class="location-date">
+                                <span><i class="fas fa-map-marker-alt"></i> Tromsø</span>
+                                <span><i class="fas fa-calendar"></i> February 2024</span>
+                            </div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">"Incredible Northern Lights experience! The glass-roof cabin was perfect for aurora viewing. The heated floors and cozy interior made our winter stay comfortable. The host provided excellent information about the best times to spot the lights."</p>
+                    <div class="testimonial-stay">
+                        <span class="stay-type"><i class="fas fa-home"></i> Aurora View Cabin</span>
+                        <span class="stay-duration"><i class="fas fa-clock"></i> 7 nights</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@norwayexplorer.com</p>
+                <p>Phone: +47 123 456 789</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Norway Explorer. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/accommodation.js"></script>
+</body>
+</html>

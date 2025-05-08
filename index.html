@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Norway Explorer - Discover the Beauty of Norway</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Norway Explorer</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="./index.html" data-i18n="home">Home</a></li>
+                <li><a href="#destinations" data-i18n="destinations">Destinations</a></li>
+                <li><a href="#activities" data-i18n="activities">Activities</a></li>
+                <li><a href="./culture.html" data-i18n="culture">Culture</a></li>
+                <li><a href="./accommodation.html" data-i18n="accommodation">Accommodation</a></li>
+                <li><a href="./travel-tips.html" data-i18n="travelTips">Travel Tips</a></li>
+                <li><a href="./events.html" data-i18n="events">Events</a></li>
+                <li><a href="./gallery.html" data-i18n="gallery">Gallery</a></li>
+                <li><a href="./contact.html" data-i18n="contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="video-container">
+                <video autoplay muted loop id="hero-video">
+                    <source src="videos/4910875_Mountain_Ridge_1280x720.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="hero-content">
+                <h1 data-i18n="welcomeToNorway">Welcome to Norway</h1>
+                <p data-i18n="heroDescription">Discover breathtaking fjords, northern lights, and unforgettable adventures</p>
+                <div class="hero-buttons">
+                    <a href="#destinations" class="btn btn-primary" data-i18n="exploreDestinations">Explore Destinations</a>
+                    <a href="#activities" class="btn btn-secondary" data-i18n="viewActivities">View Activities</a>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <span class="scroll-text" data-i18n="scrollDown">Scroll Down</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </section>
+
+        <section id="highlights" class="section">
+            <h2 data-i18n="whyVisitNorway">Why Visit Norway?</h2>
+            <div class="highlights-grid">
+                <div class="highlight-card">
+                    <i class="fas fa-mountain"></i>
+                    <h3 data-i18n="stunningNature">Stunning Nature</h3>
+                    <p data-i18n="natureDescription">Experience majestic fjords, mountains, and pristine landscapes</p>
+                </div>
+                <div class="highlight-card">
+                    <i class="fas fa-moon"></i>
+                    <h3 data-i18n="northernLights">Northern Lights</h3>
+                    <p data-i18n="northernLightsDescription">Witness the magical aurora borealis dance across the night sky</p>
+                </div>
+                <div class="highlight-card">
+                    <i class="fas fa-hiking"></i>
+                    <h3 data-i18n="outdoorAdventures">Outdoor Adventures</h3>
+                    <p data-i18n="adventuresDescription">Endless opportunities for hiking, skiing, and outdoor activities</p>
+                </div>
+                <div class="highlight-card">
+                    <i class="fas fa-landmark"></i>
+                    <h3 data-i18n="richCulture">Rich Culture</h3>
+                    <p data-i18n="cultureDescription">Discover Viking heritage and modern Scandinavian lifestyle</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="destinations" class="section">
+            <h2 data-i18n="popularDestinations">Popular Destinations</h2>
+            <div class="destinations-grid">
+                <div class="destination-card">
+                    <div class="destination-image">
+                        <img src="images/geirangerfjord.jpg" alt="Geirangerfjord">
+                        <div class="destination-overlay">
+                            <a href="#" class="btn-explore" data-i18n="exploreMore">Explore More</a>
+                        </div>
+                    </div>
+                    <div class="destination-content">
+                        <div class="destination-tag" data-i18n="unescoHeritage">UNESCO Heritage</div>
+                        <h3>Geirangerfjord</h3>
+                        <p data-i18n="geirangerfjordDescription">One of Norway's most spectacular fjords, featuring stunning waterfalls and dramatic mountain scenery.</p>
+                        <div class="destination-info">
+                            <span><i class="fas fa-map-marker-alt"></i> Western Norway</span>
+                            <span><i class="fas fa-clock"></i> Best time: Jun-Sep</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="destination-card">
+                    <div class="destination-image">
+                        <img src="images/trolltunga.jpg" alt="Trolltunga">
+                        <div class="destination-overlay">
+                            <a href="#" class="btn-explore" data-i18n="exploreMore">Explore More</a>
+                        </div>
+                    </div>
+                    <div class="destination-content">
+                        <div class="destination-tag" data-i18n="hiking">Hiking</div>
+                        <h3>Trolltunga</h3>
+                        <p data-i18n="trolltungaDescription">Iconic cliff hovering 700 meters above Lake Ringedalsvatnet, offering breathtaking views.</p>
+                        <div class="destination-info">
+                            <span><i class="fas fa-map-marker-alt"></i> Hardangerfjord</span>
+                            <span><i class="fas fa-clock"></i> Best time: Jul-Aug</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="destination-card">
+                    <div class="destination-image">
+                        <img src="images/lofoten.jpg" alt="Lofoten Islands">
+                        <div class="destination-overlay">
+                            <a href="#" class="btn-explore" data-i18n="exploreMore">Explore More</a>
+                        </div>
+                    </div>
+                    <div class="destination-content">
+                        <div class="destination-tag" data-i18n="islands">Islands</div>
+                        <h3>Lofoten Islands</h3>
+                        <p data-i18n="lofotenDescription">Dramatic landscapes with mountains, beaches, and traditional fishing villages.</p>
+                        <div class="destination-info">
+                            <span><i class="fas fa-map-marker-alt"></i> Northern Norway</span>
+                            <span><i class="fas fa-clock"></i> Best time: Year-round</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="destination-card">
+                    <div class="destination-image">
+                        <img src="images/bergen.jpg" alt="Bergen">
+                        <div class="destination-overlay">
+                            <a href="#" class="btn-explore" data-i18n="exploreMore">Explore More</a>
+                        </div>
+                    </div>
+                    <div class="destination-content">
+                        <div class="destination-tag" data-i18n="city">City</div>
+                        <h3>Bergen</h3>
+                        <p data-i18n="bergenDescription">Historic harbor city surrounded by mountains, famous for its colorful wooden houses.</p>
+                        <div class="destination-info">
+                            <span><i class="fas fa-map-marker-alt"></i> Western Norway</span>
+                            <span><i class="fas fa-clock"></i> Best time: May-Sep</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="destination-card">
+                    <div class="destination-image">
+                        <img src="images/preikestolen.jpg" alt="Preikestolen">
+                        <div class="destination-overlay">
+                            <a href="#" class="btn-explore" data-i18n="exploreMore">Explore More</a>
+                        </div>
+                    </div>
+                    <div class="destination-content">
+                        <div class="destination-tag" data-i18n="hiking">Hiking</div>
+                        <h3>Preikestolen</h3>
+                        <p data-i18n="preikestolenDescription">The Pulpit Rock, a massive cliff rising 604 meters above Lysefjorden.</p>
+                        <div class="destination-info">
+                            <span><i class="fas fa-map-marker-alt"></i> Rogaland</span>
+                            <span><i class="fas fa-clock"></i> Best time: Apr-Oct</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="destination-card">
+                    <div class="destination-image">
+                        <img src="images/tromso.jpg" alt="Tromsø">
+                        <div class="destination-overlay">
+                            <a href="#" class="btn-explore" data-i18n="exploreMore">Explore More</a>
+                        </div>
+                    </div>
+                    <div class="destination-content">
+                        <div class="destination-tag" data-i18n="northernLights">Northern Lights</div>
+                        <h3>Tromsø</h3>
+                        <p data-i18n="tromsoDescription">Gateway to the Arctic, perfect for northern lights viewing and midnight sun experiences.</p>
+                        <div class="destination-info">
+                            <span><i class="fas fa-map-marker-alt"></i> Northern Norway</span>
+                            <span><i class="fas fa-clock"></i> Best time: Sep-Mar</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="destination-card">
+                    <div class="destination-image">
+                        <img src="images/oslo.jpg" alt="Oslo">
+                        <div class="destination-overlay">
+                            <a href="#" class="btn-explore" data-i18n="exploreMore">Explore More</a>
+                        </div>
+                    </div>
+                    <div class="destination-content">
+                        <div class="destination-tag" data-i18n="capitalCity">Capital City</div>
+                        <h3>Oslo</h3>
+                        <p data-i18n="osloDescription">Norway's capital, blending modern architecture with cultural heritage and stunning fjord views.</p>
+                        <div class="destination-info">
+                            <span><i class="fas fa-map-marker-alt"></i> Southern Norway</span>
+                            <span><i class="fas fa-clock"></i> Best time: May-Sep</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="destination-card">
+                    <div class="destination-image">
+                        <img src="images/tonsberg.jpg" alt="Tønsberg">
+                        <div class="destination-overlay">
+                            <a href="#" class="btn-explore" data-i18n="exploreMore">Explore More</a>
+                        </div>
+                    </div>
+                    <div class="destination-content">
+                        <div class="destination-tag" data-i18n="historical">Historical</div>
+                        <h3>Tønsberg</h3>
+                        <p data-i18n="tonsbergDescription">Norway's oldest city, featuring Viking history, medieval ruins, and charming waterfront atmosphere.</p>
+                        <div class="destination-info">
+                            <span><i class="fas fa-map-marker-alt"></i> Vestfold</span>
+                            <span><i class="fas fa-clock"></i> Best time: Jun-Aug</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="view-all-destinations">
+                <a href="#" class="btn btn-primary" data-i18n="viewAllDestinations">View All Destinations</a>
+            </div>
+        </section>
+
+        <section id="activities" class="section">
+            <h2 data-i18n="popularActivities">Popular Activities</h2>
+            <div class="activities-grid">
+                <div class="activity-card">
+                    <div class="activity-image">
+                        <img src="images/Northern Lights Hunt.jpg" alt="Northern Lights">
+                        <div class="activity-difficulty">Easy</div>
+                    </div>
+                    <div class="activity-content">
+                        <h3 data-i18n="northernLightsHunt">Northern Lights Hunt</h3>
+                        <p data-i18n="northernLightsHuntDescription">Experience the magical aurora borealis dancing across the Arctic sky.</p>
+                        <ul class="activity-features">
+                            <li><i class="fas fa-calendar"></i> Sep-Mar</li>
+                            <li><i class="fas fa-clock"></i> Night Tours</li>
+                            <li><i class="fas fa-temperature-low"></i> Winter Gear Provided</li>
+                        </ul>
+                        <a href="#" class="btn btn-secondary" data-i18n="bookExperience">Book Experience</a>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="activity-image">
+                        <img src="images/Fjord Cruises.jpg" alt="Fjord Cruise">
+                        <div class="activity-difficulty">Easy</div>
+                    </div>
+                    <div class="activity-content">
+                        <h3 data-i18n="fjordCruises">Fjord Cruises</h3>
+                        <p data-i18n="fjordCruisesDescription">Sail through Norway's most spectacular fjords and witness breathtaking landscapes.</p>
+                        <ul class="activity-features">
+                            <li><i class="fas fa-calendar"></i> Year-round</li>
+                            <li><i class="fas fa-clock"></i> 2-7 Hours</li>
+                            <li><i class="fas fa-ship"></i> Modern Vessels</li>
+                        </ul>
+                        <a href="#" class="btn btn-secondary" data-i18n="bookExperience">Book Experience</a>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="activity-image">
+                        <img src="images/Mountain Hiking.jpg" alt="Hiking">
+                        <div class="activity-difficulty">Moderate</div>
+                    </div>
+                    <div class="activity-content">
+                        <h3 data-i18n="mountainHiking">Mountain Hiking</h3>
+                        <p data-i18n="mountainHikingDescription">Trek through Norway's stunning mountain trails with experienced guides.</p>
+                        <ul class="activity-features">
+                            <li><i class="fas fa-calendar"></i> Jun-Sep</li>
+                            <li><i class="fas fa-clock"></i> Various Durations</li>
+                            <li><i class="fas fa-mountain"></i> All Skill Levels</li>
+                        </ul>
+                        <a href="#" class="btn btn-secondary" data-i18n="bookExperience">Book Experience</a>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <div class="activity-image">
+                        <img src="images/Alpine Skiing.jpg" alt="Skiing">
+                        <div class="activity-difficulty">Moderate-Hard</div>
+                    </div>
+                    <div class="activity-content">
+                        <h3 data-i18n="alpineSkiing">Alpine Skiing</h3>
+                        <p data-i18n="alpineSkiingDescription">Experience world-class skiing in Norway's premier mountain resorts.</p>
+                        <ul class="activity-features">
+                            <li><i class="fas fa-calendar"></i> Dec-Apr</li>
+                            <li><i class="fas fa-clock"></i> Full Day</li>
+                            <li><i class="fas fa-skiing"></i> Equipment Rental</li>
+                        </ul>
+                        <a href="#" class="btn btn-secondary" data-i18n="bookExperience">Book Experience</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="featured-video" class="section">
+            <h2 data-i18n="experienceNorway">Experience Norway</h2>
+            <div class="video-section-container">
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <iframe 
+                            width="100%" 
+                            height="100%" 
+                            src="https://www.youtube.com/embed/KLuTLF3x9sA" 
+                            title="Beautiful Norway" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="video-content">
+                        <h3 data-i18n="beautifulNorway">Beautiful Norway - Land of the Fjords</h3>
+                        <p data-i18n="videoDescription">Immerse yourself in Norway's breathtaking landscapes, from majestic fjords to stunning northern lights.</p>
+                        <div class="video-buttons">
+                            <a href="https://www.youtube.com/watch?v=KLuTLF3x9sA" target="_blank" class="btn btn-primary" data-i18n="watchOnYouTube">
+                                <i class="fas fa-play"></i> Watch on YouTube
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- More sections will be added for other content -->
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 data-i18n="norwayExplorer">Norway Explorer</h3>
+                <p data-i18n="footerDescription">Your guide to experiencing the best of Norway</p>
+            </div>
+            <div class="footer-section">
+                <h3 data-i18n="quickLinks">Quick Links</h3>
+                <ul>
+                    <li><a href="#home" data-i18n="home">Home</a></li>
+                    <li><a href="#destinations" data-i18n="destinations">Destinations</a></li>
+                    <li><a href="#activities" data-i18n="activities">Activities</a></li>
+                    <li><a href="#contact" data-i18n="contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3 data-i18n="followUs">Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-i18n="copyright">&copy; 2024 Norway Explorer. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/translations.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

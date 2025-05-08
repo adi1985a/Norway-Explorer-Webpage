@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Norway Explorer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Norway Explorer</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./index.html#destinations">Destinations</a></li>
+                <li><a href="./index.html#activities">Activities</a></li>
+                <li><a href="./culture.html">Culture</a></li>
+                <li><a href="./accommodation.html">Accommodation</a></li>
+                <li><a href="./travel-tips.html">Travel Tips</a></li>
+                <li><a href="./events.html">Events</a></li>
+                <li><a href="./gallery.html" class="active">Gallery</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="gallery-page">
+        <section class="hero">
+            <div class="video-container">
+                <video autoplay muted loop id="hero-video">
+                    <source src="videos/gallery-hero.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="hero-content">
+                <h1>Norway in Pictures</h1>
+                <p>Experience the breathtaking beauty of Norway through our curated photo collection</p>
+                <div class="hero-buttons">
+                    <a href="#photo-gallery" class="btn btn-primary">Browse Gallery</a>
+                    <a href="#upload" class="btn btn-secondary">Share Your Photos</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="photo-of-day">
+            <div class="container">
+                <h2>Photo of the Day</h2>
+                <div class="photo-of-day-content">
+                    <img src="images/beautiful-shot-snowy-mountains-polar-light_181624-36566.jpg" alt="Northern Lights over Snowy Mountains">
+                    <h3>Northern Lights over Snowy Mountains</h3>
+                    <p>A magical display of the Aurora Borealis illuminating the snow-covered peaks</p>
+                    <div class="vote-section">
+                        <button class="vote-btn upvote"><i class="fas fa-thumbs-up"></i> Upvote</button>
+                        <span class="vote-count">0</span>
+                        <button class="vote-btn downvote"><i class="fas fa-thumbs-down"></i> Downvote</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery-section">
+            <div class="container">
+                <h2>Photo Gallery</h2>
+                <div class="gallery-filters">
+                    <button class="filter-btn active" data-category="all">All Photos</button>
+                    <button class="filter-btn" data-category="fjords">Fjords</button>
+                    <button class="filter-btn" data-category="northern-lights">Northern Lights</button>
+                    <button class="filter-btn" data-category="cities">Cities</button>
+                    <button class="filter-btn" data-category="mountains">Mountains</button>
+                    <button class="filter-btn" data-category="winter">Winter</button>
+                    <button class="filter-btn" data-category="culture">Culture</button>
+                </div>
+
+                <div class="gallery-grid">
+                    <!-- Fjords Category -->
+                    <div class="gallery-item" data-category="fjords">
+                        <img src="images/Geirangerfjord.jpg" alt="Geirangerfjord">
+                        <div class="gallery-overlay">
+                            <h3>Geirangerfjord</h3>
+                            <p>UNESCO World Heritage Site</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="fjords">
+                        <img src="images/Fjord Cruises.jpg" alt="Fjord Cruises">
+                        <div class="gallery-overlay">
+                            <h3>Fjord Cruises</h3>
+                            <p>Exploring Norwegian fjords by boat</p>
+                        </div>
+                    </div>
+
+                    <!-- Northern Lights Category -->
+                    <div class="gallery-item" data-category="northern-lights">
+                        <img src="images/Northern Lights Hunt.jpg" alt="Northern Lights">
+                        <div class="gallery-overlay">
+                            <h3>Aurora Hunt</h3>
+                            <p>Chasing the Northern Lights</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="northern-lights">
+                        <img src="images/beautiful-landscape-with-aurora-borealis_23-2150439612.jpg" alt="Aurora Borealis">
+                        <div class="gallery-overlay">
+                            <h3>Aurora Borealis</h3>
+                            <p>Dancing lights in the night sky</p>
+                        </div>
+                    </div>
+
+                    <!-- Cities Category -->
+                    <div class="gallery-item" data-category="cities">
+                        <img src="images/bergen-winter-scene-at-bryggen.jpg" alt="Bergen Winter">
+                        <div class="gallery-overlay">
+                            <h3>Bergen in Winter</h3>
+                            <p>Historic Bryggen district</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="cities">
+                        <img src="images/oslo1.jpg" alt="Oslo">
+                        <div class="gallery-overlay">
+                            <h3>Oslo</h3>
+                            <p>Norway's vibrant capital</p>
+                        </div>
+                    </div>
+
+                    <!-- Mountains Category -->
+                    <div class="gallery-item" data-category="mountains">
+                        <img src="images/man-sits-end-trolltunga-before-mountains_1304-5416.jpg" alt="Trolltunga">
+                        <div class="gallery-overlay">
+                            <h3>Trolltunga</h3>
+                            <p>A spectacular mountain formation</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="mountains">
+                        <img src="images/Preikestolen.jpg" alt="Preikestolen">
+                        <div class="gallery-overlay">
+                            <h3>Preikestolen</h3>
+                            <p>The Pulpit Rock</p>
+                        </div>
+                    </div>
+
+                    <!-- Winter Category -->
+                    <div class="gallery-item" data-category="winter">
+                        <img src="images/beautiful-winter-landscape_23-2151901459.jpg" alt="Winter Landscape">
+                        <div class="gallery-overlay">
+                            <h3>Winter Wonder</h3>
+                            <p>Norwegian winter landscape</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="winter">
+                        <img src="images/isolated-house-snowy-viilage_181624-6763.jpg" alt="Snowy Village">
+                        <div class="gallery-overlay">
+                            <h3>Snowy Village</h3>
+                            <p>Traditional Norwegian winter scene</p>
+                        </div>
+                    </div>
+
+                    <!-- Culture Category -->
+                    <div class="gallery-item" data-category="culture">
+                        <img src="images/culture.jpg" alt="Norwegian Culture">
+                        <div class="gallery-overlay">
+                            <h3>Cultural Heritage</h3>
+                            <p>Traditional Norwegian culture</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="culture">
+                        <img src="images/culture1.jpg" alt="Cultural Traditions">
+                        <div class="gallery-overlay">
+                            <h3>Living Traditions</h3>
+                            <p>Norwegian cultural celebrations</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="upload" class="upload-section">
+            <div class="container">
+                <h2>Share Your Norway Photos</h2>
+                <p>Upload your best shots of Norway and share them with our community</p>
+                <div class="upload-form">
+                    <div class="upload-area">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                        <p>Drag and drop your photos here or click to select files</p>
+                        <input type="file" id="file-input" multiple accept="image/*" style="display: none;">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img class="modal-img" src="" alt="Modal Image">
+            <div class="modal-nav">
+                <button class="modal-prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="modal-next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+            <div class="modal-caption"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@norwayexplorer.com</p>
+                <p>Phone: +47 123 456 789</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Norway Explorer. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+</html>

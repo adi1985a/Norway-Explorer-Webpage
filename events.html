@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - Norway Explorer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/events.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Norway Explorer</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./index.html#destinations">Destinations</a></li>
+                <li><a href="./index.html#activities">Activities</a></li>
+                <li><a href="./culture.html">Culture</a></li>
+                <li><a href="./accommodation.html">Accommodation</a></li>
+                <li><a href="./travel-tips.html">Travel Tips</a></li>
+                <li><a href="./events.html" class="active">Events</a></li>
+                <li><a href="./gallery.html">Gallery</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="events-page">
+        <section class="hero">
+            <div class="video-container">
+                <video autoplay muted loop id="hero-video">
+                    <source src="videos/events-hero.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="hero-content">
+                <h1>Upcoming Events in Norway</h1>
+                <p>Discover exciting events and experiences across Norway</p>
+                <div class="hero-buttons">
+                    <a href="#featured-events" class="btn btn-primary">Featured Events</a>
+                    <a href="#calendar" class="btn btn-secondary">View Calendar</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="events-filters" id="featured-events">
+            <form id="eventFilters">
+                <div class="filter-group">
+                    <div class="filter-item">
+                        <label for="categoryFilter">Category</label>
+                        <select id="categoryFilter" class="form-control">
+                            <option value="all">All Categories</option>
+                            <option value="Culture">Culture</option>
+                            <option value="Nature">Nature</option>
+                            <option value="Festival">Festival</option>
+                            <option value="Music">Music</option>
+                            <option value="Food">Food</option>
+                            <option value="Sports">Sports</option>
+                        </select>
+                    </div>
+                    <div class="filter-item">
+                        <label for="dateFilter">Date</label>
+                        <input type="date" id="dateFilter" class="form-control">
+                    </div>
+                    <div class="filter-item">
+                        <label for="locationFilter">Location</label>
+                        <input type="text" id="locationFilter" class="form-control" placeholder="Enter city or region">
+                    </div>
+                    <div class="filter-item" style="align-self: flex-end;">
+                        <button type="submit" class="event-button">Filter Events</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="events-grid">
+            <!-- Events will be dynamically inserted here by JavaScript -->
+        </div>
+
+        <button class="load-more">Load More Events</button>
+
+        <section class="calendar-section" id="calendar">
+            <div class="calendar-header">
+                <h2>Event Calendar</h2>
+                <div class="calendar-nav">
+                    <button class="prev-month"><i class="fas fa-chevron-left"></i></button>
+                    <span class="calendar-month"></span>
+                    <button class="next-month"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+            <div class="calendar-grid">
+                <!-- Calendar will be dynamically inserted here by JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <div class="event-modal">
+        <div class="modal-content">
+            <!-- Modal content will be dynamically inserted here by JavaScript -->
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Norway Explorer is your guide to experiencing the best of Norwegian culture, nature, and events.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./events.html">Events</a></li>
+                    <li><a href="./gallery.html">Gallery</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Norway Explorer. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/events.js"></script>
+</body>
+</html>

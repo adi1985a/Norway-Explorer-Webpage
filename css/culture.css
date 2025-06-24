@@ -334,16 +334,24 @@
 }
 
 .festival-content h3 {
-    margin: 0 0 1rem;
+    margin-bottom: 0.5rem;
     color: #333;
+}
+
+.festival-content img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
 }
 
 .festival-highlights {
     list-style: none;
     padding: 0;
-    margin: 1rem 0 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    margin: 1rem 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
     gap: 0.5rem;
 }
 

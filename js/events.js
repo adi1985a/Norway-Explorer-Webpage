@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', function() {
             date: "2024-12-15",
             location: "Bergen",
             description: "Experience the rich Viking heritage with traditional music, food, and reenactments.",
-            image: "images/events/viking-festival.jpg",
+            image: "images/culture.jpg",
             price: "499 NOK",
             tags: ["Culture", "Festival", "History"],
             featured: true
@@ -136,7 +136,7 @@ document.addEventListener('DOMContentLoaded', function() {
             date: "2024-12-20",
             location: "Tromsø",
             description: "Join our expert guides for an unforgettable aurora hunting experience.",
-            image: "images/events/northern-lights.jpg",
+            image: "images/beautiful-landscape-with-aurora-borealis_23-2150439612.jpg",
             price: "1299 NOK",
             tags: ["Nature", "Night Tour", "Photography"]
         },
@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded', function() {
             date: "2024-12-25",
             location: "Geirangerfjord",
             description: "Cruise through Norway's most spectacular fjord with stunning views and waterfalls.",
-            image: "images/events/fjord-cruise.jpg",
+            image: "images/Fjord Cruises.jpg",
             price: "899 NOK",
             tags: ["Nature", "Cruise", "Sightseeing"]
         },
@@ -156,7 +156,7 @@ document.addEventListener('DOMContentLoaded', function() {
             date: "2024-12-10",
             location: "Oslo",
             description: "Traditional Norwegian Christmas market with local crafts, food, and festivities.",
-            image: "images/events/christmas-market.jpg",
+            image: "images/norwegian_christmas.jpg",
             price: "Free",
             tags: ["Culture", "Market", "Family"]
         }

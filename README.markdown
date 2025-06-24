@@ -24,6 +24,14 @@ _A responsive HTML website promoting tourism in Norway, featuring a video hero, 
 ## 📄 Overview
 
 **Norway Explorer** is a visually engaging and responsive HTML-based website designed to inspire and inform potential tourists about the wonders of Norway. The site showcases stunning landscapes through a video hero section, details popular destinations (like Geirangerfjord and Trolltunga) and exciting activities (such as Northern Lights hunts and Fjord Cruises) using informative cards. It also features an embedded YouTube video to further highlight Norway's beauty. A key aspect is its built-in **internationalization support** using `data-i18n` attributes and a `translations.js` file, allowing for multilingual content. The modern design is achieved with custom CSS, JavaScript for interactivity, Font Awesome icons, and the "Poppins" Google Font.
+<br><br>
+![Demo GIF](screenshots/1.gif)
+![Demo GIF](screenshots/2.gif)
+![Demo GIF](screenshots/3.gif)
+![Demo GIF](screenshots/4.gif)
+![Demo GIF](screenshots/5.gif)
+![Demo GIF](screenshots/6.gif)
+![Demo GIF](screenshots/7.gif)
 
 ## ✨ Key Features
 
@@ -54,9 +62,39 @@ _A responsive HTML website promoting tourism in Norway, featuring a video hero, 
 
 ## 🖼️ Screenshots (Conceptual)
 
-**Coming soon!**
+_Screenshots of: the Norway Explorer homepage with the video hero, examples of destination and activity cards, the embedded YouTube video section, how the internationalization might look with different languages, the mobile menu, and the footer._
 
-_This section would ideally show screenshots of: the Norway Explorer homepage with the video hero, examples of destination and activity cards, the embedded YouTube video section, how the internationalization might look with different languages, the mobile menu, and the footer._
+<p align="center">
+  <img src="screenshots\1.jpg" width="300"/>
+  <img src="screenshots\2.jpg" width="300"/>
+  <img src="screenshots\3.jpg" width="300"/>
+  <img src="screenshots\4.jpg" width="300"/>
+  <img src="screenshots\5.jpg" width="300"/>
+  <img src="screenshots\6.jpg" width="300"/>
+  <img src="screenshots\7.jpg" width="300"/>
+  <img src="screenshots\8.jpg" width="300"/>
+  <img src="screenshots\9.jpg" width="300"/>
+  <img src="screenshots\10.jpg" width="300"/>
+  <img src="screenshots\11.jpg" width="300"/>
+  <img src="screenshots\12.jpg" width="300"/>
+  <img src="screenshots\13.jpg" width="300"/>
+  <img src="screenshots\14.jpg" width="300"/>
+  <img src="screenshots\15.jpg" width="300"/>
+  <img src="screenshots\16.jpg" width="300"/>
+  <img src="screenshots\17.jpg" width="300"/>
+  <img src="screenshots\18.jpg" width="300"/>
+  <img src="screenshots\19.jpg" width="300"/>
+  <img src="screenshots\20.jpg" width="300"/>
+  <img src="screenshots\21.jpg" width="300"/>
+  <img src="screenshots\22.jpg" width="300"/>
+  <img src="screenshots\23.jpg" width="300"/>
+  <img src="screenshots\24.jpg" width="300"/>
+  <img src="screenshots\25.jpg" width="300"/>
+  <img src="screenshots\26.jpg" width="300"/>
+  <img src="screenshots\27.jpg" width="300"/>
+  <img src="screenshots\28.jpg" width="300"/>
+</p>
+
 
 ## 🛠️ Technical Stack & Requirements
 
